@@ -1,0 +1,16 @@
+{
+  "name": "npmex",
+  "version": "1.0.0",
+  "description": "node online",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node index.js",
+    "dev" : "node index.js"
+  },
+  "author": "dr.code",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid4": "^2.0.2"
+  }
+}
