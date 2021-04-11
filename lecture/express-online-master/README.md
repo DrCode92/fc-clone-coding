@@ -54,3 +54,6 @@
 10. nunjucks macro
 
 11. Express 권장 구조
+    1.  controllers/index.js              대분류 url + 폴더 위치
+    2.  controllers/admin/index.js        admin url + 미들웨어
+    3.  controllers/admin/admin.ctrl.js   컨트롤러 역할  
