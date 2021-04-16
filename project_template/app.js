@@ -48,7 +48,6 @@ class App {
         })
         .then(() => {
             console.log('DB Sync complete.');
-            // return db.sequelize.sync();
         })
         .catch(err => {
             console.error('Unable to connect to the database:', err);
@@ -102,9 +101,9 @@ class App {
 
     errorHandler() {
 
-        this.app.use( (err, req, res,  _ ) => {
-            res.status(500).render('common/500.html')
-        });
+        // this.app.use( (err, req, res,  _ ) => {
+        //     res.status(500).render('common/500.html')
+        // });
     
     }
 

@@ -50,3 +50,15 @@
 12. DB 삭제
    5. models.TABLE.destroy(조회조건)
 
+
+# Promise
+
+1. CallbackHell
+
+2. Promise 만들기
+   1. resolve 와 reject를 인자로 가지는 함수를 만든다
+   2. 내가 원하는 시점을 resolve로 받아오자
+
+3. Promise Chaining, Promise all
+
+4. async await
