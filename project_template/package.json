@@ -16,6 +16,6 @@
     "morgan": "^1.10.0",
     "mysql2": "^2.2.5",
     "nunjucks": "^3.2.3",
-    "sequelize": "^4.44.4"
+    "sequelize": "^4.42.0"
   }
 }

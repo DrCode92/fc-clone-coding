@@ -12,6 +12,12 @@ module.exports = (sequelize, DataTypes) => {
             cell_phone : { type: DataTypes.STRING , comment: '핸드폰번호' }
         }
     );
+    
+    Shops.associate = (models) => {
+        Shops.hasMany( models.ShopsMenu, 
+            { as: 'Menu', foreignKey: 'shop_id', sourceKey: 'id', onDelete: 'CASCADE' }
+        );
+    }
 
     Shops.prototype.dateFormat = (date) => (
         moment(date).format('YYYY-MM-DD')
