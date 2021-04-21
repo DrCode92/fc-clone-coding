@@ -1,6 +1,6 @@
 # 패캠이츠 코드
 
-# ch01
+# ch01 메뉴작성 페이지 만들기
     1. 수업준비 및 템플릿 소스 설명
        1. npm install <> nodejs 설치
        2. database 생성
@@ -41,3 +41,13 @@
           1. add_menu
     5. 메뉴 출력
     6. 메뉴 삭제
+
+# ch02 제품 썸네일 만들기
+   1. 파일업로드 개요
+      1. 모듈 설치
+         1. npm install multer
+      2. 템플릿에서 enctype=multipart/form-data 추가
+      3. Shops 모델 필드명 추가
+      4. 미들웨어 작성
+   2. multer를 이용한 파일 업로드
+   3. 글 수정시 적용
